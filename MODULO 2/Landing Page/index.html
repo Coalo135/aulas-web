@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <strong>CRISTIANO</strong>
+            <ul class="nav-links">
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#habilidades">Skills</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="hero">
+            <h1>Cristiano <span class="highlight">Fatecando</span></h1>
+            <p>Um cara ai, que tenta fazer uns codigo as vezes, e até acerto umas logica ai.</p>
+            <a href="#projetos" class="btn-primary">Ver Projetos</a>
+        </section>
+
+        <section id="sobre" class="container">
+            <h2>Quem sou?</h2>
+            <p>Atualmente apenas um grande CLT, que ouve um rock e faz uns codigo.<br>Também acho tartarugas legais</p>
+        </section>
+
+        <section id="projetos" class="container">
+            <h2>Meus Projetos</h2>
+            <div class="projetos-grid">
+                <article class="projeto-card">
+                    <div class="projeto-img"><img src="./imagens/turtle-eat.jpg"></div>
+                    <div class="projeto-info">
+                        <h3>Comilona</h3>
+                        <p>Uma tartaruga com fome de folha verde.</p>
+                    </div>
+                </article>
+                <article class="projeto-card">
+                    <div class="projeto-img"><img src="./imagens/mini-turtle.jpg"></div>
+                    <div class="projeto-info">
+                        <h3>Tartuguinha</h3>
+                        <p>Uma pequinina tartaruga, pequena mas pode ser letal! Não me pergunte como.</p>
+                    </div>
+                </article>
+                <article class="projeto-card">
+                    <div class="projeto-img"><img src="./imagens/turtle-happy.jpg"></div>
+                    <div class="projeto-info">
+                        <h3>Felicidade Tartaruguense</h3>
+                        <p>Felicidade de tortuga</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="habilidades" class="container">
+            <h2>Tecnologias</h2>
+            <div class="skills">
+                <span class="skill-tag">Python 3</span>
+                <span class="skill-tag">C++</span>
+                <span class="skill-tag">C#</span>
+                <span class="skill-tag">Flutter</span>
+                <span class="skill-tag">Dart</span>
+                <span class="skill-tag">PostgreSQL</span>
+                <span class="skill-tag">Git</span>
+            </div>
+        </section>
+        
+        <section id="contato" class="container">
+            <h2>Vamos conversar?</h2>
+            <form class="form-contato">
+                <input type="text" placeholder="Seu Nome" required>
+                <input type="email" placeholder="Seu E-mail" required>
+                <textarea rows="5" placeholder="" required></textarea>
+                <button type="submit" class="btn-primary">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Cristiano. Desenvolvido com um tom de humor e pra mecher nos html da vida<br>Viva as Tartarugas.</p>
+            <div class="social-links">
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
